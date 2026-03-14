@@ -12,9 +12,8 @@
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org)
-[![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/s3)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
-[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
+[![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com)
 
 [![Status](https://img.shields.io/badge/Status-In_Development-A855F7?style=for-the-badge)](.)
 [![Platform](https://img.shields.io/badge/Platform-Android_|_iOS-6B21A8?style=for-the-badge)](.)
@@ -22,62 +21,64 @@
 
 <br/>
 
-> A secure mobile platform built for **Geetanjali Music Academy** — connecting **ALL INDIA RADIO** musician mentors with their students for notation sharing, live online classes, and academy-wide discussions.
-
-<br/>
-
 </div>
 
 ---
 
-## 🏛️ About the Academy
+## 🏛️ The Story
 
-**Geetanjali Music Academy** is a prestigious institution located in **Shibpur, Howrah, West Bengal, India**, founded by **Badrinath Chatterjee**.
+**Geetanjali Music Academy** isn't just a music school — it's a legacy.
 
-The academy is home to **ALL INDIA RADIO musicians** who mentor students across a diverse range of musical traditions — including Mandolin, Guitar, Piano, Tabla, Vocals, and Hawaiian Guitar — spanning Classical, Bengali, Bollywood, and Western genres.
+Founded by **Badrinath Chatterjee** and nestled in the cultural heart of **Shibpur, Howrah, West Bengal**, the academy has been a sanctuary for serious music students for years. Its mentors are not ordinary teachers — they are **All India Radio** certified musicians, carrying forward traditions that span generations.
+
+But tradition deserved a modern stage.
+
+This app was built to bridge the gap between the old and the new — giving students and mentors a private, secure, dedicated space to learn, practice, and grow together — without the noise of generic platforms.
 
 ---
 
-## ✨ Features
+## ✨ What Makes It Different
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
-### 🔐 Secure Onboarding
-Phone OTP registration via Firebase, selfie verification, and admin-controlled account approval before any access is granted.
-
-</td>
-<td align="center" width="33%">
-
-### 🎼 Notation Sharing
-Mentors upload PDF/image lesson materials directly to each student's private library. Students access only their own materials.
+### 🎼 Your Lessons. Only Yours.
+Every notation, sheet, and lesson material uploaded by your mentor lives in **your private library** — and only yours. No shared folders. No accidental leaks.
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
-### 📹 Live Video Classes
-1-on-1 online classes powered by **Jitsi Meet** (free & open source). Mentor initiates, student receives instant push notification.
+### 📹 Classes That Feel Real
+Live 1-on-1 video sessions with your mentor — initiated with one tap, no scheduling apps, no third-party logins. Just music.
 
 </td>
 </tr>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
-### 📊 Class Tracking
-Mentors view enrolled students with total class count, last session date, and session status at a glance.
-
-</td>
-<td align="center" width="33%">
-
-### 📢 Announcements
-Admin broadcasts academy-wide announcements that auto-pin to the top of the community feed in real time.
+### 🛡️ Invitation-Only Access
+This isn't an open platform. Every student goes through a **verified onboarding process** — approved by the academy before getting in. Your community stays trusted.
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
-### 🎬 Tutorials
-In-app YouTube feed fetching all videos from the official GMA channel via YouTube Data API v3.
+### 📊 Progress You Can See
+Mentors track every class — session history, duration, frequency — so nothing slips through the cracks and every student gets the attention they deserve.
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### 📢 Academy. Always Connected.
+Important announcements from the academy reach every member instantly. No WhatsApp groups. No missed messages.
+
+</td>
+<td align="center" width="50%">
+
+### 🎬 Learn Beyond the Classroom
+An in-app curated tutorial feed from the academy's official channel — so students can revisit, revise, and keep learning between sessions.
 
 </td>
 </tr>
@@ -85,131 +86,70 @@ In-app YouTube feed fetching all videos from the official GMA channel via YouTub
 
 ---
 
-## 👥 User Roles
+## 👥 Built for Everyone in the Academy
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        ROLE HIERARCHY                           │
-│                                                                 │
-│   👑 Super Admin  →  Full system control                       │
-│        ↓                                                        │
-│   🛡️  Admin       →  User verification, announcements          │
-│        ↓                                                        │
-│   👨‍🏫  Mentor      →  Upload notations, host video calls        │
-│        ↓                                                        │
-│   🎓  Student     →  View materials, join classes              │
-│        ↓                                                        │
-│   ⏳  Pending     →  Tutorials, About, Community (read-only)   │
-└─────────────────────────────────────────────────────────────────┘
-```
+| Who | Their Experience |
+|-----|-----------------|
+| 🎓 **Student** | Access lessons, join live classes, explore tutorials, engage with the community |
+| 👨‍🏫 **Mentor** | Manage students, share materials, host classes, track attendance & sessions |
+| 🛡️ **Admin** | Verify members, broadcast announcements, oversee the entire academy |
+| 👑 **Super Admin** | Full platform control |
+
+> *New members start as **Pending** — they can explore public content while awaiting academy approval. It keeps the community high-quality.*
 
 ---
 
-## 🔄 Registration Flow
+## 🎨 The Look & Feel
 
-```
-📱 Enter Phone Number
-        ↓
-🔢 OTP Verification  (Firebase Phone Auth)
-        ↓
-🤳 Upload Selfie
-        ↓
-⏳ Account PENDING  (Admin Review)
-        ↓
-✅ Admin Approves  →  Account ACTIVE  →  Role Assigned
-        ↓
-🏠 Role-based Dashboard
-```
-
----
-
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                      Flutter Mobile App                         │
-│           (Android + iOS)  •  Dart  •  Riverpod                │
-└──────────────────────────┬──────────────────────────────────────┘
-                           │ REST API  /api/v1
-┌──────────────────────────▼──────────────────────────────────────┐
-│                   NestJS Backend  (TypeScript)                   │
-│   Controllers → Services → Repositories → Models                │
-└────┬──────────┬──────────┬──────────┬──────────┬───────────────┘
-     │          │          │          │          │
-  🐘 PG     🪣 S3     🔥 Firebase  📹 Jitsi  📺 YouTube
-PostgreSQL  AWS S3   Phone Auth   Meet SDK   Data API
-             +FCM
-```
-
----
-
-## 🛠️ Tech Stack
-
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| 📱 Mobile | Flutter + Dart | Cross-platform Android & iOS |
-| 🔧 Backend | NestJS + TypeScript | REST API, business logic |
-| 🗄️ Database | PostgreSQL + TypeORM | Relational data storage |
-| 🪣 Storage | AWS S3 | Notation files + selfies |
-| 🔐 Auth OTP | Firebase Phone Auth | SMS OTP — India |
-| 🔑 Sessions | JWT | Secure token-based auth |
-| 📹 Video | Jitsi Meet | Free open-source 1-on-1 calls |
-| 📺 Tutorials | YouTube Data API v3 | GMA channel video feed |
-| 🔔 Notifications | Firebase Cloud Messaging | Push notifications |
-| 🖥️ Hosting | DigitalOcean | Production server |
-
----
-
-## 🎨 Design System
+Built on a deep **violet identity** — inspired by the richness and depth of classical music.
 
 <table>
 <tr>
-<th>Token</th>
-<th>Color</th>
-<th>Usage</th>
+<td>![#3B0764](https://placehold.co/18x18/3B0764/3B0764.png)</td><td><code>#3B0764</code> — Deep Violet</td>
+<td>![#6B21A8](https://placehold.co/18x18/6B21A8/6B21A8.png)</td><td><code>#6B21A8</code> — Primary</td>
+<td>![#A855F7](https://placehold.co/18x18/A855F7/A855F7.png)</td><td><code>#A855F7</code> — Accent</td>
+<td>![#DDD6FE](https://placehold.co/18x18/DDD6FE/DDD6FE.png)</td><td><code>#DDD6FE</code> — Soft Lavender</td>
 </tr>
-<tr><td>primary</td><td>![#6B21A8](https://placehold.co/15x15/6B21A8/6B21A8.png) <code>#6B21A8</code></td><td>Buttons, active nav, headers</td></tr>
-<tr><td>primary-light</td><td>![#A855F7](https://placehold.co/15x15/A855F7/A855F7.png) <code>#A855F7</code></td><td>Highlights, icons, badges</td></tr>
-<tr><td>primary-dark</td><td>![#3B0764](https://placehold.co/15x15/3B0764/3B0764.png) <code>#3B0764</code></td><td>AppBar, dark backgrounds</td></tr>
-<tr><td>accent</td><td>![#DDD6FE](https://placehold.co/15x15/DDD6FE/DDD6FE.png) <code>#DDD6FE</code></td><td>Cards, chips, subtle fills</td></tr>
-<tr><td>surface</td><td>![#F5F3FF](https://placehold.co/15x15/F5F3FF/F5F3FF.png) <code>#F5F3FF</code></td><td>Screen backgrounds</td></tr>
 </table>
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Where We're Headed
 
-- [x] Authentication & Registration (Phone OTP + Selfie)
-- [x] Admin Panel — user verification & management
-- [x] Role-based dashboards (Student / Mentor / Admin)
-- [x] Notation system — upload & download lesson materials
-- [x] Live 1-on-1 video classes (Jitsi Meet)
-- [x] Community feed & academy-wide announcements
-- [x] In-app YouTube tutorial feed
-- [x] Class tracking & session history for mentors
-- [ ] Progress reports & performance tracking
+**Core platform** — shipped ✅
+
+- [x] Verified onboarding with identity check
+- [x] Role-based access for all academy members
+- [x] Private notation library per student
+- [x] Live 1-on-1 video classes
+- [x] Class tracking & full session history
+- [x] Academy announcements & community feed
+- [x] In-app tutorial video feed
+
+**Coming next** 🚀
+
+- [ ] Student progress reports & performance insights
 - [ ] Fee management & payment integration
-- [ ] Push notifications for class reminders
-- [ ] UI polish & final brand identity
-- [ ] Beta release for enrolled students & mentors
-- [ ] Android & iOS app store release
+- [ ] Smart class reminders & push notifications
+- [ ] UI refinements & final brand polish
+- [ ] **Beta launch** for Geetanjali students & mentors
+- [ ] **Android & iOS** app store release
 
 ---
 
-## 🔒 Security
+## 🔒 Privacy by Design
 
-- ✅ Students can **never** access other students' data
-- ✅ Mentors can **only** access their assigned students
-- ✅ Pending users are blocked from all private features
-- ✅ All authorization enforced **server-side** — never UI-only
-- ✅ File uploads validated for type and size
-- ✅ All secrets in environment variables — never hardcoded
+Every feature was built with one rule: **your data belongs to you.**
+
+No student can see another student's materials. No mentor can access students outside their roster. Every request is verified on the server — the app never trusts the client. All files and credentials are handled with industry-standard security practices.
 
 ---
 
 ## 📸 Screenshots
 
-> Coming soon — app is currently in active development.
+> The app is actively being developed. Screenshots and a demo video will be added here before the beta launch.
+>
+> ⭐ **Star this repo** to get notified when the first release drops.
 
 ---
 
@@ -219,11 +159,11 @@ PostgreSQL  AWS S3   Phone Auth   Meet SDK   Data API
 
 *🎵 Without Music Life Would Be A Mistake !!*
 
-**Thanks to Badrinath Chatterjee — Founder of Geetanjali Music Academy**
+**Dedicated to Badrinath Chatterjee — Founder, Geetanjali Music Academy**
 
 <br/>
 
-Built with ❤️ by [Sayan Chatterjee (HackSayan)](https://github.com/thehacksayan)
+Built with ❤️ by [Sayan Chatterjee](https://github.com/thehacksayan)
 
 [![GitHub](https://img.shields.io/badge/GitHub-thehacksayan-6B21A8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thehacksayan)
 
