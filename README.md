@@ -14,8 +14,10 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com)
+[![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)](https://digitalocean.com)
 
-[![Status](https://img.shields.io/badge/Status-In_Development-A855F7?style=for-the-badge)](.)
+[![Status](https://img.shields.io/badge/Status-Beta-A855F7?style=for-the-badge)](.)
+[![Backend](https://img.shields.io/badge/Backend-Live-22c55e?style=for-the-badge)](.)
 [![Platform](https://img.shields.io/badge/Platform-Android_|_iOS-6B21A8?style=for-the-badge)](.)
 [![License](https://img.shields.io/badge/License-Private-3B0764?style=for-the-badge)](.)
 
@@ -90,12 +92,22 @@ An in-app curated tutorial feed from the academy's official channel — so stude
 
 | Who | Their Experience |
 |-----|-----------------|
-| 🎓 **Student** | Access lessons, join live classes, explore tutorials, engage with the community |
+| 🎓 **Student** | Access lessons, join live classes, explore tutorials, track fees, engage with the community |
 | 👨‍🏫 **Mentor** | Manage students, share materials, host classes, track attendance & sessions |
-| 🛡️ **Admin** | Verify members, broadcast announcements, oversee the entire academy |
+| 🛡️ **Admin** | Verify members, broadcast announcements, manage fees, oversee the entire academy |
 | 👑 **Super Admin** | Full platform control |
 
 > *New members start as **Pending** — they can explore public content while awaiting academy approval. It keeps the community high-quality.*
+
+---
+
+## 🎵 Instruments & Genres
+
+**Instruments taught at the academy:**
+Mandolin · Guitar · Piano · Tabla · Vocals · Hawaiian Guitar
+
+**Music genres covered:**
+Classical · Bengali · Bollywood · Western
 
 ---
 
@@ -114,26 +126,29 @@ Built on a deep **violet identity** — inspired by the richness and depth of cl
 
 ---
 
-## 🗺️ Where We're Headed
+## 🗺️ Where We Are
 
 **Core platform** — shipped ✅
 
-- [x] Verified onboarding with identity check
+- [x] Verified onboarding with identity check (phone OTP + selfie)
 - [x] Role-based access for all academy members
 - [x] Private notation library per student
-- [x] Live 1-on-1 video classes
+- [x] Live 1-on-1 video classes (Jitsi Meet)
 - [x] Class tracking & full session history
 - [x] Academy announcements & community feed
-- [x] In-app tutorial video feed
+- [x] In-app tutorial video feed (YouTube)
+- [x] Student progress reports & performance insights
+- [x] Fee management & payment tracking
+- [x] Push notifications (Firebase Cloud Messaging)
+- [x] Beta launch via Firebase App Distribution
+- [x] Backend live on DigitalOcean with CI/CD auto-deployment
 
 **Coming next** 🚀
 
-- [ ] Student progress reports & performance insights
-- [ ] Fee management & payment integration
-- [ ] Smart class reminders & push notifications
-- [ ] UI refinements & final brand polish
-- [ ] **Beta launch** for Geetanjali students & mentors
-- [ ] **Android & iOS** app store release
+- [ ] Payment gateway integration (UPI / Razorpay)
+- [ ] iOS App Store release
+- [ ] Android Play Store release
+- [ ] Offline notation viewing
 
 ---
 
@@ -147,9 +162,9 @@ No student can see another student's materials. No mentor can access students ou
 
 ## 📸 Screenshots
 
-> The app is actively being developed. Screenshots and a demo video will be added here before the beta launch.
+> Beta is live and in the hands of Geetanjali students & mentors. Screenshots and a demo video coming soon.
 >
-> ⭐ **Star this repo** to get notified when the first release drops.
+> ⭐ **Star this repo** to get notified when the public release drops.
 
 ---
 
